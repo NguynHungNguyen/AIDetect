@@ -1,6 +1,4 @@
-Here's the updated README to include the instruction for downloading the M4 repository:
 
----
 
 # AIDetect - Running the Code
 
