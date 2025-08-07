@@ -39,6 +39,3 @@ python train2.py \
 
 Make sure that the necessary datasets for the domains are available.
 
----
-
-This should guide users to set up the required M4 dataset and run the training/testing code. Let me know if you need any adjustments!
