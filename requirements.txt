@@ -1,0 +1,9 @@
+torch
+transformers
+datasets
+sentence-transformers
+scikit-learn
+scikit-dimension
+nltk
+matplotlib
+fsspec==2023.9.2

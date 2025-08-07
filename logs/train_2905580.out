@@ -1,0 +1,144 @@
+Activating environment...
+Using GPU:
+Fri Aug  1 05:21:54 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.148.08             Driver Version: 570.148.08     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-80GB          On  |   00000000:01:00.0 Off |                    0 |
+| N/A   27C    P0             75W /  500W |       0MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA A100-SXM4-80GB          On  |   00000000:41:00.0 Off |                    0 |
+| N/A   26C    P0             75W /  500W |       0MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA A100-SXM4-80GB          On  |   00000000:81:00.0 Off |                    0 |
+| N/A   30C    P0             90W /  500W |       0MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA A100-SXM4-80GB          On  |   00000000:C1:00.0 Off |                    0 |
+| N/A   26C    P0             79W /  500W |       0MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Launching training...
+🧠 Loading spaCy English model...
+✅ spaCy loaded.
+📂 Will TRAIN on 15 files, TEST on 1 files.
+🔖 Classes: ['human', 'chatGPT', 'cohere', 'davinci', 'dolly']
+🔗 Loading SimCSE embedder…
+✅ Embedder ready.
+[Ep1] Train Loss=2056.6416 Acc=0.590
+        Val Acc=0.723
+[Ep2] Train Loss=1159.4239 Acc=0.770
+        Val Acc=0.799
+[Ep3] Train Loss=914.0636 Acc=0.816
+        Val Acc=0.831
+[Ep4] Train Loss=796.1698 Acc=0.837
+        Val Acc=0.845
+[Ep5] Train Loss=719.3889 Acc=0.851
+        Val Acc=0.860
+[Ep6] Train Loss=654.0092 Acc=0.863
+        Val Acc=0.869
+[Ep7] Train Loss=609.9197 Acc=0.869
+        Val Acc=0.874
+[Ep8] Train Loss=575.2794 Acc=0.878
+        Val Acc=0.871
+[Ep9] Train Loss=552.5494 Acc=0.882
+        Val Acc=0.882
+[Ep10] Train Loss=532.1993 Acc=0.888
+        Val Acc=0.886
+[Ep11] Train Loss=513.6087 Acc=0.891
+        Val Acc=0.890
+[Ep12] Train Loss=494.1508 Acc=0.895
+        Val Acc=0.894
+[Ep13] Train Loss=478.9827 Acc=0.899
+        Val Acc=0.889
+[Ep14] Train Loss=467.2030 Acc=0.900
+        Val Acc=0.896
+[Ep15] Train Loss=456.7925 Acc=0.904
+        Val Acc=0.900
+[Ep16] Train Loss=441.5631 Acc=0.907
+        Val Acc=0.897
+[Ep17] Train Loss=433.3167 Acc=0.909
+        Val Acc=0.904
+[Ep18] Train Loss=420.1943 Acc=0.912
+        Val Acc=0.903
+[Ep19] Train Loss=414.1498 Acc=0.913
+        Val Acc=0.905
+[Ep20] Train Loss=401.8855 Acc=0.917
+        Val Acc=0.906
+[Ep21] Train Loss=396.4472 Acc=0.918
+        Val Acc=0.909
+[Ep22] Train Loss=387.9981 Acc=0.920
+        Val Acc=0.909
+[Ep23] Train Loss=379.5469 Acc=0.921
+        Val Acc=0.908
+[Ep24] Train Loss=373.7913 Acc=0.923
+        Val Acc=0.910
+[Ep25] Train Loss=367.5870 Acc=0.923
+        Val Acc=0.911
+[Ep26] Train Loss=360.4597 Acc=0.926
+        Val Acc=0.913
+[Ep27] Train Loss=353.6564 Acc=0.927
+        Val Acc=0.906
+[Ep28] Train Loss=350.4716 Acc=0.928
+        Val Acc=0.914
+[Ep29] Train Loss=339.0639 Acc=0.929
+        Val Acc=0.908
+[Ep30] Train Loss=336.4120 Acc=0.930
+        Val Acc=0.909
+[Ep31] Train Loss=327.7776 Acc=0.933
+        Val Acc=0.918
+[Ep32] Train Loss=323.2450 Acc=0.933
+        Val Acc=0.918
+[Ep33] Train Loss=321.1480 Acc=0.935
+        Val Acc=0.915
+[Ep34] Train Loss=317.8536 Acc=0.934
+        Val Acc=0.912
+[Ep35] Train Loss=310.2137 Acc=0.935
+        Val Acc=0.914
+[Ep36] Train Loss=307.9973 Acc=0.937
+        Val Acc=0.921
+[Ep37] Train Loss=300.6872 Acc=0.939
+        Val Acc=0.919
+[Ep38] Train Loss=298.1775 Acc=0.939
+        Val Acc=0.921
+[Ep39] Train Loss=288.2601 Acc=0.940
+        Val Acc=0.922
+[Ep40] Train Loss=286.4653 Acc=0.940
+        Val Acc=0.913
+[Ep41] Train Loss=291.2715 Acc=0.940
+        Val Acc=0.922
+[Ep42] Train Loss=280.9864 Acc=0.943
+        Val Acc=0.920
+[Ep43] Train Loss=276.4764 Acc=0.944
+        Val Acc=0.919
+[Ep44] Train Loss=276.8092 Acc=0.944
+        Val Acc=0.925
+[Ep45] Train Loss=271.9984 Acc=0.944
+        Val Acc=0.922
+[Ep46] Train Loss=263.3001 Acc=0.945
+        Val Acc=0.919
+[Ep47] Train Loss=264.3074 Acc=0.945
+        Val Acc=0.924
+[Ep48] Train Loss=257.6489 Acc=0.947
+        Val Acc=0.923
+[Ep49] Train Loss=251.4730 Acc=0.949
+        Val Acc=0.922
+[Ep50] Train Loss=252.4463 Acc=0.949
+        Val Acc=0.921
+✅ Model saved to checkpoints/final_m4_model.pt
+🎯 Test  Acc=0.592
+Training finished.

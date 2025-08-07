@@ -1,0 +1,4 @@
+/fred/oz402/ngnguyen/AIDetect/.venv/lib64/python3.9/site-packages/networkx/utils/backends.py:135: RuntimeWarning: networkx backend defined more than once: nx-loopback
+  backends.update(_get_backends("networkx.backends"))
+[nltk_data] Error loading punkt: <urlopen error [Errno -2] Name or
+[nltk_data]     service not known>
